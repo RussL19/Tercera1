@@ -11,7 +11,9 @@
 
 <nav>
     <div class="Menu-izquierda">
-            <img src="./img/LogoNetflix.jpg" alt="" height="180">
+            <a href="./">
+                <img src="./img/LogoNetflix.jpg" alt="" height="180">
+            </a>
     </div>
         <div class="Menu-derecha">
             <div class="menu-container">
