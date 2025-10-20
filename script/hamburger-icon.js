@@ -1,15 +1,18 @@
-console.log('Hamburger Icon Cargado')
+console.log("Hamburger Icon Cargado");
 
 (function () {
-    const main_obj = {
-        init: function(){
-            this.eventhandlers()
-        },
-        eventhandlers: function() {
-            document.querySelector('.hamburger-icon').addEventListener('CLICK', function(){
-                document.querySelector('.menu-container').classList.toggle('menu-open');
-            })
-        }
-    }
-    main_obj.init()
+  const main_obj = {
+    init: function () {
+      this.eventhandlers();
+    },
+    eventhandlers: function () {
+      const hamburger = document.querySelector('.hamburger-icon');
+      const menuContainer = document.querySelector('.menu-container');
+
+      hamburger.addEventListener('click', function () {
+        menuContainer.classList.toggle('menu-open');
+      });
+    },
+  };
+  main_obj.init();
 })();

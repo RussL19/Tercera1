@@ -1,5 +1,5 @@
 <?php require_once "./vistas/vista_superior.php"?>
 
-PS5
+Elige la serie que deseas ver
 
 <?php require_once "./vistas/vista_inferior.php"?>
