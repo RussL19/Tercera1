@@ -1,4 +1,4 @@
-console.log("Cards Cargado");
+console.log("Cargando Cards");
 
 const dataCards = [
     {
@@ -13,7 +13,7 @@ const dataCards = [
     {
         "title": "Naruto",
         "url_image":"./img/naruto.jpg",
-        "desc": "La mejor pelicula ",
+        "desc": "Una aventura",
         "cta": "Mostrar mas...",
         "link": "../series.php"
 
@@ -21,7 +21,7 @@ const dataCards = [
     {
         "title": "The Witcher",
         "url_image":"./img/theWitcher.jpg",
-        "desc": "Lo mejor en del momento ",
+        "desc": "La mejor serie del momento ",
         "cta": "Mostrar mas...",
         "link": "../tendencias.php"
 
@@ -30,7 +30,7 @@ const dataCards = [
     {
         "title": "Narcos",
         "url_image":"./img/Narcos.jpg",
-        "desc": "Lo mejor en del momento ",
+        "desc": "Conoce más sobre la historia de el mejor narcotraficante ",
         "cta": "Mostrar mas...",
         "link": "../tendencias.php"
 
