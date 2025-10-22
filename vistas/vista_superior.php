@@ -5,16 +5,16 @@
     <meta charset="utf-8">
     <meta name="Tercera 1" content="Proyecto Universitario">
     <title>Tercera 1</title>
-   <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
-
-<nav>
-    <div class="Menu-izquierda">
+<body>
+    <nav>
+        <div class="Menu-izquierda">
             <a href="./">
-                <img src="./img/LogoNetflix.jpg" alt="" height="180">
+                <img src="./img/LogoNetflix.jpg" alt="140" height="200">
             </a>
-    </div>
+        </div>
         <div class="Menu-derecha">
             <div class="menu-container">
 
@@ -32,10 +32,10 @@
                 </div>
             </div>
         </div>
+    </nav>
 
-    <div class="Menu-central">
-            <img src="./img/Cartelera2j.jpg" alt="" height="100">
-    </div>
-</nav>
+    <script src="./script/hamburger-icon.js"></script>
 
-<script src="./script/hamburger-icon.js"></script>
+    <body>
+
+</html>

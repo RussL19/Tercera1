@@ -2,30 +2,75 @@ console.log("Cards Cargado");
 
 const dataCards = [
     {
-        "title": "Pelicula del a;o",
+        "title": "The Joker",
         "url_image":"./img/joker.jpg",
         "desc": "La mejor pelicula ",
         "cta": "Mostrar mas...",
-        "link": "/peliculas.php"
+        "link": "../peliculas.php"
 
     },
 
     {
-        "title": "Serie del a;o",
-        "url_image":"./img/naturo.jpg",
+        "title": "Naruto",
+        "url_image":"./img/naruto.jpg",
         "desc": "La mejor pelicula ",
         "cta": "Mostrar mas...",
-        "link": "/series.php"
+        "link": "../series.php"
 
     },
     {
-        "title": "Tendecias",
-        "url_image":"",
+        "title": "The Witcher",
+        "url_image":"./img/theWitcher.jpg",
         "desc": "Lo mejor en del momento ",
         "cta": "Mostrar mas...",
-        "link": "/tendencias.php"
+        "link": "../tendencias.php"
 
-    }
+    },
+
+    {
+        "title": "Narcos",
+        "url_image":"./img/Narcos.jpg",
+        "desc": "Lo mejor en del momento ",
+        "cta": "Mostrar mas...",
+        "link": "../tendencias.php"
+
+    },
+
+    {
+        "title": "The amazing Spiderman",
+        "url_image":"./img/spiderman.jpg",
+        "desc": "Lo mejor en del momento ",
+        "cta": "Mostrar mas...",
+        "link": "../tendencias.php"
+
+    },
+
+    {
+        "title": "Karate Kid",
+        "url_image":"./img/the-karate-kid.jpg",
+        "desc": "Lo mejor en del momento ",
+        "cta": "Mostrar mas...",
+        "link": "../tendencias.php"
+
+    },
+
+    {
+        "title": "Guardianes de la Galaxia",
+        "url_image":"./img/Guardians.jpg",
+        "desc": "Los protectores de la galaxia están devuelta ",
+        "cta": "Mostrar mas...",
+        "link": "../tendencias.php"
+
+    },
+
+    {
+        "title": "Monster Inc",
+        "url_image":"./img/MonsterINC.jpg",
+        "desc": "Una película de Pixar ",
+        "cta": "Mostrar mas...",
+        "link": "../tendencias.php"
+
+    },
 
 ];
 

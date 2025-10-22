@@ -3,6 +3,17 @@
    margin: 0; 
 }
 
+body {
+  background-image: url(../img/Cartelera2j.jpg); 
+  background-size: cover;         
+  background-position: center;   
+  background-repeat: no-repeat;   /* No se repite */
+  background-attachment: fixed;   /* No se mueve al hacer scroll */
+  min-height: 100vh;              /* Siempre ocupa toda la pantalla */
+  margin: 0;
+}
+
+
 nav {
    width: 100%;
    height: 120px;
@@ -11,25 +22,11 @@ nav {
    flex-direction: column;
 }
 
-.Menu-central {
-   width: 100%;
-   height: 100%;
-   display: flex;
-   flex-direction: row;
-   align-items: first baseline;
-   justify-content: center;
-}
-.Menu-central img {
-  width: 100%;       /* Se adapta al ancho de la pantalla */
-  max-width: 100%; /* No se hace demasiado grande en pantallas enormes */
-  height: auto;      /* Mantiene la proporción */
-  border-radius: 10px;
-  object-fit: cover; /* Recorta y ajusta si es necesario */
-}
+
 /*Logo Netflix ubicacion*/
 .Menu-izquierda {
-   width: 700px;
-   height: 100%;
+   width: 900px;
+   height: 100%; 
    display: flex;
    flex-direction: row;
    align-items: center;
@@ -42,6 +39,7 @@ nav {
    display: flex;
    background-color: rgb(16, 16, 16);
    flex-direction: row;
+   object-fit: contain;
    align-items: center;
    justify-content: end;
    padding: 30px;
@@ -58,148 +56,146 @@ nav {
    margin: 15px;
    padding: 100px;
    border-radius: 10px;
-   box-shadow: 3px, 3px, 6px rgb(184, 25, 25);
+   object-fit: contain;
 }
 
-.card-list{
-   background-color: rgb(255, 255, 255);
-   width: 100%;
-   height: auto;
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   flex-wrap: wrap;
-   padding: 20px 0  ;
+.card-list {
+  display: flex;
+  flex-wrap: wrap;         /* Permite que las cards bajen si no caben */
+  justify-content: center; /* Centra las cards horizontalmente */
+  align-items: flex-start;
+  gap: 20px;               /* Espacio entre tarjetas */
+  width: 100%;             /* Ocupa todo el ancho disponible */
+  padding: 20px;
+  margin-top: 140px;       /*  Baja las cards para no tapar el menú */
+  box-sizing: border-box;
 }
 
-.card-item{
-   background-color: rgb(26, 26, 26) ;
-   border: 1px solid white;
-   width: 50%;
-   height: auto;
-   border-radius: 10px ;
-   overflow:  hidden;
-   margin: 0 10px ;
-   box-shadow: rgb(255, 255, 255) ;
-
+.card-item {
+  background-color: rgb(18, 18, 18);
+  border: 1px solid rgb(17, 17, 17);
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+  width: calc(22% - 20px); /*  4 tarjetas por fila */
+  transition: transform 0.2s ease-in-out;
+  overflow: hidden;
 }
 
-.card-item:hover{
-   transform: scale(1.01);
+.card-item:hover {
+  transform: scale(1.05);
 }
 
-.card-item img{
-   width: 100%;
-   height: auto;
-   object-fit: cover;
+.card-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover; 
+  display: block;
+  margin: 0 auto;
 }
 
-.card-info{
-   height: auto;
-   padding:  10px 12px ;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   align-items: flex-start;
+.card-info {
+  padding: 10px 12px;
 }
 
-.card-title{
-   width: 100%;
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center;
-   font-size: 20px;
-   font-weight: bold;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   margin-bottom: 20px;
-
+.card-title {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
+
 .card-desc {
-   width: 100%;
-   height: 70px;
-   display: flex;
-   flex-direction: row;
-   align-items: flex-start;
-   justify-content: flex-start;
-   font-size: 15px;
-   text-align: justify;
-   margin-bottom: 15%;
+  font-size: 14px;
+  text-align: justify;
+  color: rgb(200, 200, 200);
 }
 
-.card-cta{
-   width: 120px;
-   height: 30px;
-   background-color: red;
-   color: white;
-   border: 1px solid white;
-   border-radius: gray;
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center;
-   text-decoration: none;
+.card-cta {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(22, 2, 2);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(53, 53, 53);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: 0.3s ease;
 }
 
-.card-cta:hover{
-   transform: scale(1.01) translateX(2px) translateY(-2px);
-}
-
-.card-item{
-   width: 90%;
-   margin-bottom: 50px;
-}
-.card-title{
-   font-size: 30px;
-}
-.card-desc{
-   font-size: 50px;
-   height: auto;
-}
-.card-cta{
-   width: auto;
-   height: auto;
-   font-size: 50px;
-   padding: 20px;
-   margin: 50px 0 30px 30px;
+.card-cta:hover {
+  transform: scale(1.05);
+  background-color: rgb(40, 0, 0);
 }
 
 
 @media screen and (max-width: 1000px) {
+  .Menu-normal {
+    display: none;
+    flex-direction: column;
+    background-color: rgb(16, 16, 16);
+    position: absolute;
+    top: 120px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
 
-   .Menu-normal {
-   display: none;
+  .Menu-normal.active {
+    display: flex;
+  }
+
+  .hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 50px;
+  }
+
+  .hamburger-icon span {
+    display: block;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 2px;
+  }
+
+
+
+
+  .card-list {
+    flex-direction: column;  
+    align-items: center;      
+    margin-top: 160px;
+  }
+
+  .card-item {
+    width: 85%;              
+    margin-bottom: 30px;
+  }
+
+  .card-item img {
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
+  }
+
+  .card-title {
+    font-size: 22px;
+  }
+
+  .card-desc {
+    font-size: 16px;
+  }
+
+  .card-cta {
+    font-size: 18px;
+    padding: 10px;
+  }
 }
-
-/* ==== Estilos para el ícono hamburguesa ==== */
-.hamburger-icon {
-  display: flex;
-  margin-right: 70px;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 40px;
-  height: 20px;
-  cursor: pointer;
-}
-
-.hamburger-icon span {
-  display: block;
-  height: 4px;
-  background-color: rgb(255, 255, 255); /* cambia a negro si tu fondo es claro */
-  border-radius: 2px;
-}
-
-
-   .menu-container.menu-open .menu-normal{
-      background-color: rgb(0, 187, 0);
-      z-index: 2;
-      width: auto;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      margin: 400px;
-   }
-
-   
-}
-

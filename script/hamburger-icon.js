@@ -6,12 +6,15 @@ console.log("Hamburger Icon Cargado");
       this.eventhandlers();
     },
     eventhandlers: function () {
-      const hamburger = document.querySelector('.hamburger-icon');
-      const menuContainer = document.querySelector('.menu-container');
+      document.addEventListener("DOMContentLoaded", () => {
+        const hamburger = document.querySelector(".hamburger-icon");
+        const menu = document.querySelector(".Menu-normal");
 
-      hamburger.addEventListener('click', function () {
-        menuContainer.classList.toggle('menu-open');
+        hamburger.addEventListener("click", () => {
+          menu.classList.toggle("active");
+        });
       });
+
     },
   };
   main_obj.init();
