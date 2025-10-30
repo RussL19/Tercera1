@@ -6,7 +6,7 @@ const dataCards = [
         "url_image":"./img/joker.jpg",
         "desc": "La mejor pelicula ",
         "cta": "Mostrar mas...",
-        "link": "../peliculas.php"
+        "link": "./peliculas.php"
 
     },
 
@@ -15,7 +15,7 @@ const dataCards = [
         "url_image":"./img/naruto.jpg",
         "desc": "Una aventura",
         "cta": "Mostrar mas...",
-        "link": "../series.php"
+        "link": "./series.php"
 
     },
     {
@@ -23,7 +23,7 @@ const dataCards = [
         "url_image":"./img/theWitcher.jpg",
         "desc": "La mejor serie del momento ",
         "cta": "Mostrar mas...",
-        "link": "../tendencias.php"
+        "link": "./tendencias.php"
 
     },
 
@@ -32,7 +32,7 @@ const dataCards = [
         "url_image":"./img/Narcos.jpg",
         "desc": "Conoce más sobre la historia de el mejor narcotraficante ",
         "cta": "Mostrar mas...",
-        "link": "../tendencias.php"
+        "link": "./tendencias.php"
 
     },
 
@@ -41,7 +41,7 @@ const dataCards = [
         "url_image":"./img/spiderman.jpg",
         "desc": "Lo mejor en del momento ",
         "cta": "Mostrar mas...",
-        "link": "../tendencias.php"
+        "link": "./tendencias.php"
 
     },
 
@@ -50,7 +50,7 @@ const dataCards = [
         "url_image":"./img/the-karate-kid.jpg",
         "desc": "Lo mejor en del momento ",
         "cta": "Mostrar mas...",
-        "link": "../tendencias.php"
+        "link": "./tendencias.php"
 
     },
 
@@ -59,7 +59,7 @@ const dataCards = [
         "url_image":"./img/Guardians.jpg",
         "desc": "Los protectores de la galaxia están devuelta ",
         "cta": "Mostrar mas...",
-        "link": "../tendencias.php"
+        "link": "./tendencias.php"
 
     },
 
@@ -68,7 +68,7 @@ const dataCards = [
         "url_image":"./img/MonsterINC.jpg",
         "desc": "Una película de Pixar ",
         "cta": "Mostrar mas...",
-        "link": "../tendencias.php"
+        "link": "./tendencias.php"
 
     },
 

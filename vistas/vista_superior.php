@@ -9,33 +9,28 @@
 </head>
 
 <body>
-    <nav>
-        <div class="Menu-izquierda">
-            <a href="./">
-                <img src="./img/LogoNetflix.jpg" alt="140" height="200">
-            </a>
+  <nav>
+    <div class="Menu-izquierda">
+      <a href="./">
+        <img src="./img/LogoNetflix.jpg" alt="Logo Netflix" height="200">
+      </a>
+    </div>
+
+    <div class="Menu-derecha">
+      <div class="menu-container">
+        <div class="menu-normal">
+          <a href="./">Inicio</a>
+          <a href="./Tendencias.php">Tendencias</a>
+          <a href="./peliculas.php">Películas</a>
+          <a href="./series.php">Series</a>
+          <a href="./contacto.php">Contacto</a>
         </div>
-        <div class="Menu-derecha">
-            <div class="menu-container">
 
-                <div class="Menu-normal">
-                    <a href="./">Inicio</a>
-                    <a href="./Tendencias.php">Tendecias</a>
-                    <a href="./peliculas.php">Peliculas</a>
-                    <a href="./series.php">Series</a>
-                    <a href="./contacto.php">Contacto</a>
-                </div>
-                <div class="hamburger-icon">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
+        <div class="hamburger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-    </nav>
-
-    <script src="./script/hamburger-icon.js"></script>
-
-    <body>
-
-</html>
+      </div>
+    </div>
+  </nav>
