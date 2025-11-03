@@ -2,10 +2,10 @@
 <HTML lang="spanish">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="Tercera 1" content="Proyecto Universitario">
-    <title>Tercera 1</title>
-    <link rel="stylesheet" href="./css/main.css">
+  <meta charset="utf-8">
+  <meta name="Tercera 1" content="Proyecto Universitario">
+  <title>Tercera 1</title>
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
@@ -23,7 +23,7 @@
           <a href="./Tendencias.php">Tendencias</a>
           <a href="./peliculas.php">Películas</a>
           <a href="./series.php">Series</a>
-          <a href="./contacto.php">Contacto</a>
+          <a href="./categoria.php">Categoria</a>
         </div>
 
         <div class="hamburger-icon">
@@ -34,3 +34,5 @@
       </div>
     </div>
   </nav>
+
+

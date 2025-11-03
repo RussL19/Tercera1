@@ -4,7 +4,7 @@ const track = document.querySelector(".carousel-track");
 const prevBtn = document.querySelector(".carousel-btn.prev");
 const nextBtn = document.querySelector(".carousel-btn.next");
 
-const scrollStep = 300; // Distancia por desplazamiento
+const scrollStep = 650; // Distancia por desplazamiento
 let autoPlayInterval;
 const autoPlaySpeed = 3000; // milisegundos entre desplazamientos
 

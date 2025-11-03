@@ -1,5 +1,5 @@
 console.log("Cargando Acordión");
-
+/*
 const dataAccordion = [
   {
     title: "Nuevos lanzamientos",
@@ -55,7 +55,7 @@ const dataAccordion = [
     },
   };
   ACCORDION.init();
-})();
+})();*/
 
 console.log("🎬 Acordeón de categorías cargado");
 
